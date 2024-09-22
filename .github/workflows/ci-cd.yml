@@ -30,13 +30,11 @@ jobs:
 
     - name: Set up the database
       run: |
-        poetry run python api/manage.py makemigrations
-        poetry run python api/manage.py migrate
+        cd api
+        poetry run python manage.py makemigrations
+        poetry run python manage.py migrate
 
     - name: Run Django tests
       run: |
-        poetry run python api/manage.py test
-        ls -l
         cd api
-        ls -l
         poetry run python manage.py test
