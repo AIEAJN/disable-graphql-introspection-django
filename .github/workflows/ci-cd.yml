@@ -39,4 +39,4 @@ jobs:
         ls -l
         cd api
         ls -l
-
+        poetry run python manage.py test
