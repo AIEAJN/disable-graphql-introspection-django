@@ -3,7 +3,6 @@
 *.venv
 logs
 *.log
-*.lock
 *__pycache__
 *.vscode
 0*
