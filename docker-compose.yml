@@ -1,0 +1,18 @@
+services:
+  introspection-disabler:
+    image: introspection-disabler
+    restart: unless-stopped
+    container_name: introspection-disabler
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - static:/static
+      - ./:/app
+      - migrations:/app/api/introspection_disabler/migrations  # Migrations volume for data persitence
+    ports:
+      - 7000:7000
+
+volumes:
+  static:
+  migrations:
