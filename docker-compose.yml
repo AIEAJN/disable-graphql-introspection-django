@@ -9,7 +9,7 @@ services:
     volumes:
       - static:/static
       - ./:/app
-      - migrations:/app/api/introspection_disabler/migrations  # Migrations volume for data persitence
+      - migrations:/app/api/introspection_disabler/migrations  # Migrations volume for data migrations persitence
     ports:
       - 7000:7000
 

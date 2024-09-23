@@ -11,3 +11,4 @@ logs
 
 # statics
 *static
+*.md5
