@@ -121,9 +121,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
-
-STATIC_URL = "/static/disable-introspection/"
-STATIC_ROOT = "/static/disable-introspection/"
+STATIC_URL = "/var/www/introspection/static/"
+STATIC_ROOT = "/var/www/introspection/static/"
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 CORS_ALLOW_CREDENTIALS = True

@@ -7,7 +7,7 @@ services:
       context: .
       dockerfile: ./Dockerfile
     volumes:
-      - static:/static/disable-introspection
+      - static:/static
       - ./:/app
       - migrations:/app/api/introspection_disabler/migrations  # Migrations volume for data migrations persitence
     ports:
