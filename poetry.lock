@@ -278,21 +278,6 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
-name = "django-allow-cidr"
-version = "0.7.1"
-description = "A Django Middleware to enable use of CIDR IP ranges in ALLOWED_HOSTS."
-optional = false
-python-versions = "*"
-files = [
-    {file = "django-allow-cidr-0.7.1.tar.gz", hash = "sha256:382c5d7a9807279e3e96e4f4892b59163a2b30128c596902bf5f80e133e1ccbb"},
-    {file = "django_allow_cidr-0.7.1-py2.py3-none-any.whl", hash = "sha256:11126c5bb9df3a61ff9d97304856ba7e5b26d46c6d456709a6d9e28483bff47f"},
-]
-
-[package.dependencies]
-Django = ">=2.2"
-packaging = "*"
-
-[[package]]
 name = "django-cors-headers"
 version = "3.14.0"
 description = "django-cors-headers is a Django application for handling the server headers required for Cross-Origin Resource Sharing (CORS)."
@@ -1513,13 +1498,13 @@ files = [
 
 [[package]]
 name = "tzdata"
-version = "2024.1"
+version = "2024.2"
 description = "Provider of IANA time zone data"
 optional = false
 python-versions = ">=2"
 files = [
-    {file = "tzdata-2024.1-py2.py3-none-any.whl", hash = "sha256:9068bc196136463f5245e51efda838afa15aaeca9903f49050dfa2679db4d252"},
-    {file = "tzdata-2024.1.tar.gz", hash = "sha256:2674120f8d891909751c38abcdfd386ac0a5a1127954fbc332af6b5ceae07efd"},
+    {file = "tzdata-2024.2-py2.py3-none-any.whl", hash = "sha256:a48093786cdcde33cad18c2555e8532f34422074448fbc874186f0abd79565cd"},
+    {file = "tzdata-2024.2.tar.gz", hash = "sha256:7d85cc416e9382e69095b7bdf4afd9e3880418a2413feec7069d533d6b4e31cc"},
 ]
 
 [[package]]
@@ -1550,4 +1535,4 @@ brotli = ["brotli"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "4d276ea61e0b0500055477f45140af895636a111cfc08a4c2fc2fb3b11a8ee80"
+content-hash = "2fed46a7242046b385900d90ff2e70e6e217d3773a8a6497a4c61d9edb8becf7"
